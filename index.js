@@ -33,5 +33,5 @@ app.use(boomErrorHandler);
 app.use(errorHandler);
 
 app.listen(3001, function () {
-  console.log('Estoy escuchando en el puerto 3001');
+  console.log('Estoy escuchando en el puerto 3001, Hola');
 });
